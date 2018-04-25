@@ -1,0 +1,169 @@
+html, body, body div, span,
+h1, h2, h3, h4, h5, h6, p,
+code, em, img, b, i, ul, li,tr, th, td,footer, header,section{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 14px;
+    font-style:normal;
+    font-weight: normal;
+    vertical-align: baseline;
+    background: transparent;
+}
+body{
+    background-color:#f5f8f9;
+    font-family: Tahoma;
+}
+a{
+    color: #073763;
+}
+a:hover{
+    text-decoration:underline;
+    cursor: pointer;
+    color: #075a92;
+}
+code{
+    margin: 0 4px;
+    padding: 1px;
+    font-size: 100%;
+    color: #ff0c09;
+    background-color: #f9f2f4;
+    border-radius: 4px;
+}
+i{
+    font-size: 16px;
+    color: #075a92;
+}
+ul li{
+    list-style: none;
+    line-height: 1.5em;
+}
+.container .title{
+    width: 90px;
+    height: 18px;
+    padding: 4px 15px;
+    line-height: 20px;
+    background-color: #073763;
+    margin: 2px 0 0 0;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+.hr{
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #073763;
+    margin: 0 0 8px 0;
+}
+.container .date{
+    display: inline-block;
+    width: 110px;
+    height: 20px;
+    line-height: 20px;
+    margin: 2px;
+    font-size: 12px;
+}
+
+/*页面*/
+.container{
+    box-sizing: border-box;
+    width: 790px;
+    height: 1040px;
+    margin: 20px auto;
+    padding: 20px 55px;
+    box-shadow: 0 0 0 1px hsla(0,0%,100%,.3) inset, 0 0 10px rgba(0, 0, 0, 0.6);
+    text-shadow: 0 1px 1px hsla(0,0%,100%,.3);
+}
+.container .base{
+    height: 144px;
+    overflow: hidden;
+}
+.container .base .personal{
+    width: 95px;
+    height: 132px;
+    margin: 6px;
+}
+.container .base .baseInfo{
+    vertical-align: top;
+    width: 568px;
+    display: inline-block;
+    position: relative;
+}
+.container .base .baseInfo .base-info{
+    display: inline-block;
+    margin: 0 5px 10px 15px;
+}
+.container .base .baseInfo .name{
+    color: #073763;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.container .baseInfo .job{
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    right: 50px;
+    margin-bottom: 0;
+}
+.container .baseInfo .job span{
+    font-size: 26px;
+    font-weight: 600;
+}
+.container .baseInfo .base-item .base-info:nth-child(odd){
+    width: 293px;
+}
+.container .baseInfo .base-item .base-info:nth-child(5){
+    width: 100%;
+}
+/*教育信息*/
+.education,.project{
+    overflow: hidden;
+}
+.education .information:nth-child(2){
+    display: inline-block;
+    width:100px;
+    font-weight: 600;
+}
+.education .information:nth-child(3){
+    display: inline-block;
+    width: 157px;
+    font-weight: 600;
+}
+.education .information:nth-child(4){
+    display: inline-block;
+    width: 157px;
+}
+.education .information:nth-child(5){
+    display: inline-block;
+    width: 126px;
+}
+.project .project-item{
+    position: relative;
+    margin-bottom: 2px;
+}
+.project .name{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+.project .tag{
+    float: right;
+}
+.project  img{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+}
+.honor .information{
+    width: 560px;
+    display: inline-block;
+}
+.honor span{
+    vertical-align: top;
+}
