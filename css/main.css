@@ -69,7 +69,7 @@ ul li{
 .container{
     box-sizing: border-box;
     width: 790px;
-    height: 1040px;
+    height: 1100px;
     margin: 20px auto;
     padding: 20px 55px;
     box-shadow: 0 0 0 1px hsla(0,0%,100%,.3) inset, 0 0 10px rgba(0, 0, 0, 0.6);
