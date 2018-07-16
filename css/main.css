@@ -68,8 +68,8 @@ ul li{
 /*页面*/
 .container{
     box-sizing: border-box;
-    width: 790px;
-    height: 1100px;
+    width: 810px;
+    height: 1080px;
     margin: 20px auto;
     padding: 20px 55px;
     box-shadow: 0 0 0 1px hsla(0,0%,100%,.3) inset, 0 0 10px rgba(0, 0, 0, 0.6);
