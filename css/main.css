@@ -16,6 +16,7 @@ body{
 }
 a{
     color: #073763;
+    text-decoration: none;
 }
 a:hover{
     text-decoration:underline;
@@ -148,7 +149,7 @@ ul li{
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 5px;
-    text-decoration: none;
+
 }
 .project .tag{
     float: right;
